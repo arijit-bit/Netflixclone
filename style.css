@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    background-image: url("assets/fuck.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1900px, 100vw);
+}
+
+.main .box {
+    background-color: black;
+    opacity: 0.74;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 70px;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    height: 40px;
+    top: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    color: white;
+    display: flex;
+    height: calc(100% - 50px);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    z-index: 12;
+    padding: 29px;
+}
+
+.text .a1 {
+    font-weight: 900;
+    font-size: 280%;
+    position: relative;
+    z-index: 11;
+}
+
+.text .a2 {
+    font-weight: 400;
+    font-size: large;
+    position: relative;
+    z-index: 11;
+}
+
+.text .a3 {
+    font-weight: 400;
+    font-size: large;
+    position: relative;
+    z-index: 11;
+}
+
+body {
+    background-color: black;
+}
+
+.line {
+    height: 7px;
+    background-color: rgba(128, 128, 128, 0.322);
+}
+
+.rbtn {
+    background-color: red;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 4px;
+    font-size: x-large;
+    font-weight: 500;
+    border: none;
+    z-index: 12;
+    cursor: pointer;
+}
+
+nav .btn {
+    padding: 5px 15px;
+    margin: 0px 10px;
+    border-radius: 3px;
+    z-index: 10;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signbtn {
+    color: white;
+    background-color: red;
+    border: none;
+    
+}
+
+.enbtn {
+    background-color: rgba(14, 14, 14, 0.573);
+    color: white;
+    border: 0.5px solid white;
+    margin-right: 50px;
+}
+
+.email {
+    background-color: rgba(3, 3, 3, 0.573);
+    filter: blur(10%);
+    height: 50px;
+    width: 40vw;
+    max-width: 390px;
+    border: navajowhite;
+    border: 00.5px solid white;
+    border-radius: 4px;
+    padding-left: 17px;
+    font-weight: 500;
+    font-size: 100%;
+    color: white;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.c1 {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: 70px 0px;
+    gap: 10px;
+}
+
+.c1 .ctext1 {
+    font-size: larger;
+    color: white;
+    padding-right: 20px;
+}
+
+.c1 .ctext1 span {
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.c1 .ctext1 p {
+    padding-right: 5vw;
+    font-size: larger;
+}
+
+.c1 .tvvid {
+    
+    position: relative;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.c1 .tvvid img {
+    width: 30vw;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.c1 .tvvid video {
+    width: 25vw;
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.c2 {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+.c2 .ctext2 {
+    font-size: larger;
+    color: white;
+}
+
+.c2 .ctext2 span {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.c2 .download {
+    width: 50vh;
+    
+}
+
+.c2 .download img {
+    width: 40vw;
+}
+.c2 .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+.c2 .download .minidownload{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding: 1px 10px;
+    width: fit-content;
+    width: 20vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 72%;
+}
+.c2 .download .minidownload .m1 img {
+    width: 4vw;
+}
+.c2 .download .minidownload .m2 p {
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.c2 .download .minidownload .m2 span {
+    color: blue;
+    font-size: 1.2vw;
+    display: flex;
+    font-weight: 500;
+}
+.c2 .download .minidownload .m3 img {
+    width: 3vw;
+}
+.c3 {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: 70px 0px;
+    gap: 10px;
+}
+
+.c3 .ctext3 {
+    font-size: larger;
+    color: white;
+    padding-right: 20px;
+}
+
+.c3 .ctext3 span {
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.c3 .ctext3 p {
+    padding-right: 5vw;
+    font-size: larger;
+}
+
+.c3 .devicevid {
+    
+    position: relative;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.c3 .devicevid img {
+    width: 30vw;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+}
+
+.c3 .devicevid video {
+    width: 19vw;
+    position: absolute;
+    left: 19%;
+    top: 13%;
+    margin: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.c4 {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+.c4 .ctext4 {
+    font-size: larger;
+    color: white;
+}
+
+.c4 .ctext4 span {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.c4 .kid {
+    width: 50vw;
+    
+}
+
+.c4 .kid img {
+    width: 40vw;
+}
+
+.centertext {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.ltext button {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    width: 75vw;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+}
+.ltext :hover {
+    background-color: rgb(58, 58, 58);
+}
+.ltext h3 {
+    font-weight:300;
+    font-size: x-large;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 21px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 72px;
+}
+.box2 span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin-top: 44px;
+}
+.lastbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 75vw;
+    margin: auto;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.lastbox p {
+    font-weight: 300;
+    font-size: small;
+}
+.lastbox p a {
+    font-weight: 300;
+    font-size: small;
+    color: white;
+}
+.lastcont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 0px;
+    row-gap: 10px;
+    margin: 7px 0px;
+}
+.lastcont a {
+    width: 250px;
+    color: white;
+    font-size: small;
+    font-weight: 300;
+
+}
+.lasteng{
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: rgba(14, 14, 14, 0.573);
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+.x{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+option{
+    color: black;
+}
+.extra{
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:963px ){
+    .sub{
+        display: flex;
+        flex-direction: column;
+    }
+    .text .a1 {
+        font-size: xx-large;
+    }
+    .text .a2{
+        font-size: medium;
+    }
+    .text .a3{
+        font-size: medium;
+    }
+    .sub .email{
+        width: 80vw;
+    }
+    nav span img {
+        width: 110px;
+    }
+    .c1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .c1 .ctext1{
+        text-align: center;
+        width: 85vw;
+    }
+    .c1 .ctext1 span{
+        font-size: x-large;
+    }
+        
+    .c1 .ctext1 p{
+        font-size: small;
+    }
+    .c1 .tvvid img{
+         width: 50vw;
+    }
+    .c1 .tvvid video{
+        width: 37vw;
+        bottom: 2%;
+    }
+
+    .c2 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 0px;
+    }
+    .c2 .ctext2{
+        text-align: center;
+        width: 85vw;
+    }
+    .c2 .ctext2 span{
+        font-size: x-large;
+    }
+        
+    .c2 .ctext2 p{
+        font-size: small;
+    }
+    .c2 .download img {
+        width: 50vw;
+    }
+    .c2 .download .minidownload {
+        display: flex;
+        justify-content: space-between;
+        width: 25vw;
+    }
+    .c2 .download .minidownload .m1 img {
+        width: 5vw;
+    }
+    .c2 .download .minidownload .m2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .c2 .download .minidownload .m2 p{
+        font-size: 1.6vw;
+    }
+    .c2 .download .minidownload .m3 img {
+        width: 5vw;
+    }
+
+    .c3 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .c3 .ctext3{
+        text-align: center;
+        width: 85vw;
+    }
+    .c3 .ctext3 span{
+        font-size: x-large;
+    }
+        
+    .c3 .ctext3 p{
+        font-size: small;
+    }
+    .c3 .devicevid img{
+        width: 50vw;
+    }
+    .c3 .devicevid video{
+        width: 31vw;
+    }
+
+    .c4 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .c4 .ctext4{
+        text-align: center;
+        width: 85vw;
+    }
+    .c4 .ctext4 span{
+        font-size: x-large;
+    }
+        
+    .c4 .ctext4 p{
+        font-size: small;
+    }
+    .c4 .kid img{
+        width: 50vw;
+    }
+    .centertext span{
+        font-size: x-large;
+        
+    }
+    .centertext {
+        margin: 15px;
+        padding: 0px 10vw;
+        display: flex;
+    }
+
+}
+.box2 span{
+    padding: 0px 10vw;
+}
+@media only screen and (max-width:545px){
+    .text .a1 {
+        font-size: x-large;
+    }
+    .text .a2{
+        font-size: medium;
+    }
+    .text .a3{
+        font-size: medium;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .lx{
+        font-size: medium;
+    }
+    .ltext h3{
+        font-size:medium;
+    }
+    .ltext svg{
+        width: 20px;
+    }
+}
